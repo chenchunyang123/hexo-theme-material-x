@@ -276,7 +276,8 @@
           .digest {
             display: block;
             white-space: pre-wrap;
-            overflow: scroll;
+            // overflow: scroll;
+            overflow-y: auto;
             text-overflow: ellipsis;
             font-size: @fontsize_small;
             line-height: @lineheight_base;
@@ -284,6 +285,9 @@
             .enable-trans();
             em {
               // font-weight: bold;
+            }
+            b {
+                color: red;
             }
           }
           .icon {
