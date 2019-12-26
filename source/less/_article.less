@@ -456,7 +456,11 @@
     }
   }
   .code{
-      padding: @gap;
+    //   padding: @gap; 默认
+    // ------------------- 修改版
+      padding: calc(@gap / 8);
+      padding-left: 10px;
+    // --------------------
       vertical-align: top;
       border: 0px solid darken(@theme_background, 2%);
       &:before{
