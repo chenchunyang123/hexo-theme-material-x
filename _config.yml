@@ -65,7 +65,7 @@ cover:
           url: /
         - name: 笔记
           icon: fas fa-sticky-note
-          url: notes/dist/
+          url: http://notes.chenchunyang.site/dist
           target: true
         - name: 作品
           icon: fas fa-code-branch
@@ -104,7 +104,7 @@ menu_mobile:
       url: /
     - name: 笔记
       icon: fas fa-sticky-note
-      url: notes/dist/
+      url: http://notes.chenchunyang.site/dist
       target: true
     - name: 文章归档
       icon: fas fa-archive
